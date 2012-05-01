@@ -1,3 +1,15 @@
+/*
+ * Userland application for SMS brand uninterruptible power supply.
+ * Aplicativo para nobreak SMS.
+ *
+ * Peter Senna Tschudin - peter.senna @ gmail.com
+ *
+ * This code is distributed under Version 2 of the GNU General Public
+ * License.
+ *
+ * Version 0.1
+ */
+
 #include <stdio.h>	/* Standard input/output definitions */
 #include <stdlib.h>	/* strtol() */
 #include <stdbool.h>	/* bool type */
