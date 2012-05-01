@@ -99,7 +99,7 @@ int send_query (int fd, int query[])
 	return 0;
 }
 
-/* This was reading only a char at once
+/* This was reading only a char at a time
 int get_results (int fd, int rawvalues[])
 {
 	int i;
