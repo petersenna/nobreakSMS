@@ -1,0 +1,5 @@
+(en) Userland application and Linux Kernel module for SMS brand uninterruptible power supply.
+
+(pt_BR) Aplicativo e módulo do Kernel do Linux para nobreak SMS.
+
+For the userland application just type gcc nobreakSMS.c -o nobreakSMS.
