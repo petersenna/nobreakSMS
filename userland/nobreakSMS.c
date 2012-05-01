@@ -458,8 +458,8 @@ int main (int argc, char *argv[])
 
 	/* Device Startup
          * This is done on the official software but looks not necessary
-	 */
-/*
+	 *
+
 	send_query (fd, query3);
 	send_query (fd, query4);
 	get_results2(fd, rawvalues);
@@ -469,7 +469,9 @@ int main (int argc, char *argv[])
 	get_results2(fd, rawvalues);
 	send_query (fd, query6);
 	get_results2(fd, rawvalues);
-*/
+
+	*/
+
 	while (errorcount < 2 ){
 
 		send_query (fd, query6);
