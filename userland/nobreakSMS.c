@@ -297,12 +297,12 @@ void print_values(struct smsstatus *results)
          * This is why i = 1.
 	 */
 	for (i = 1; i < HUMAN_VALUES; i++){
-		printf ("%20s %3.2f\n", desc[i], *ordered_values[i]);
+		printf ("%20s:%3.2f\n", desc[i], *ordered_values[i]);
 	}
 
 
 	for (i = 0; i < 8; i++){
-		printf ("%20s %d\n", bits_desc[i], *ordered_bits[i]);
+		printf ("%20s:%d\n", bits_desc[i], *ordered_bits[i]);
 	}
 }
 
