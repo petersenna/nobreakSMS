@@ -314,7 +314,9 @@ int main (int argc, char *argv[])
 	int errorcount = 0;
 	int rawvalues[RESULT_SIZE];
 	char *tty = DEFAULT_TTY;
-	bool starttest, aborttest, switchbeep;
+	bool starttest = false;
+	bool aborttest = false;
+	bool switchbeep = false;
 	struct smsstatus results;
 
 /***************************************************************************

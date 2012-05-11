@@ -1,5 +1,5 @@
 all:
-	gcc nobreakSMS.c -o nobreakSMS
+	gcc nobreakSMS.c -O2 -o nobreakSMS
 
 clean:
 	rm nobreakSMS
