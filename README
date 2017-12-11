@@ -3,3 +3,5 @@
 (pt_BR) Aplicativo e módulo do Kernel do Linux para nobreak SMS.
 
 For the userland application just type make.
+
+(pt_BR) Atualização 2017: Tente usar o nut, Network UPS Tools. Os nobreaks da SMS aparecem na lista de dispositivos compatíveis. O nut está disponível na maioria das distribuições Linux.
